@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="bg-primary py-4 px-2">
+    <header class="bg-success py-4 px-2">
         <div class="container">
             <ul class="list-unstyled d-flex">
                 <li class="px-2"><a href="{{ route('home') }}" class="text-white fs-5 text-decoration-none fw-bold">Home</a></li>
@@ -22,10 +22,12 @@
 
     <!-- Main -->
     <main class="my-5">
-        <div class="col-12">
-            <h1 class="text-center">
-                {{ $msg }}
-            </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                <p class="fw-bolder">{{$msg}}</p>
+                </div>
+            </div>
         </div>
     </main>
 

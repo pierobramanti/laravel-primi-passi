@@ -6,10 +6,12 @@
     <title>I Miei Primi Passi</title>
     <!-- Link Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
 </head>
 <body>
     <!-- Header -->
-    <header class="bg-primary py-4 px-2">
+    <header class="bg-warning py-4 px-2">
         <div class="container">
             <ul class="list-unstyled d-flex">
                 <li class="px-2"><a href="{{ route('home') }}" class="text-white fs-5 text-decoration-none fw-bold">Home</a></li>
@@ -22,11 +24,15 @@
 
     <!-- Main -->
     <main class="my-5">
-        <div class="col-12">
-            <h1 class="text-center">
-                {{ $msg }}
-            </h1>
-        </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-12">
+            <h1>{{$msg}}</h1>
+            </div>
+    </header>
+    <main class="container my-5">
+        
+      </div>
     </main>
 
 </body>
